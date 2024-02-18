@@ -43,7 +43,7 @@ button{
 #input{
   margin-top: 20px;
   height: 100px;
-  color: white;
+  color: rgb(231, 226, 226);
   font-size: 50px;
   text-align: center;
 }
@@ -54,60 +54,5 @@ button{
   border-radius: 40px;
   box-shadow: inset 6px 6px 10px rgba(16, 107, 107, 0.445),
   inset -6px -6px 10px rgba(16, 107, 107, 0.445);
-}
-
-@media (max-width:600px) {
-  body{
-    background-color: rgb(5, 199, 199);
-    
-    
-  }
-  .container{
-    background-color: rgba(147, 199, 5, 0.322);;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  button{
-    width: 80px;
-    height: 80px;
-    border: none;
-    margin: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 30px;
-    background-color: transparent;
-    box-shadow: 6px 6px 10px rgba(16, 107, 107, 0.445),
-    -6px -6px 10px rgba(16, 107, 107, 0.445);
-  
-  }
-  .calc{
-    padding: 20px;
-    background: transparent;
-    background-color: rgba(16, 107, 107, 0.445);
-    border-radius: 40px;
-    box-shadow: -1px -1px 10px 10px rgba(16, 107, 107, 0.562);
-    
-  }
-  
-  #input{
-    margin-top: 20px;
-    height: 100px;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-  }
-  
-  .special-btn{
-    background: transparent;
-    background-color: rgba(147, 199, 5, 0.322);
-    border-radius: 40px;
-    box-shadow: inset 6px 6px 10px rgba(16, 107, 107, 0.445),
-    inset -6px -6px 10px rgba(16, 107, 107, 0.445);
-  }
-  
 }
 
