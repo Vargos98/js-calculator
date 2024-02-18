@@ -25,12 +25,34 @@ button{
   margin: 10px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: large;
+  font-size: 30px;
   background-color: transparent;
-  box-shadow: inset;
+  box-shadow: 6px 6px 10px rgba(16, 107, 107, 0.445),
+  -6px -6px 10px rgba(16, 107, 107, 0.445);
 
 }
 .calc{
-
+  padding: 20px;
+  background: transparent;
+  background-color: rgba(16, 107, 107, 0.445);
+  border-radius: 40px;
+  box-shadow: -1px -1px 10px 10px rgba(16, 107, 107, 0.562);
   
 }
+
+#input{
+  margin-top: 20px;
+  height: 100px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.special-btn{
+  background: transparent;
+  background-color: rgba(147, 199, 5, 0.322);
+  border-radius: 40px;
+  box-shadow: inset 6px 6px 10px rgba(16, 107, 107, 0.445),
+  inset -6px -6px 10px rgba(16, 107, 107, 0.445);
+}
+
